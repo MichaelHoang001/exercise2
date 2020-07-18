@@ -1,0 +1,20 @@
+[
+	{
+	  "action": "GET",
+	  "profile": {
+		"name": "Adam",
+		"age": 10
+	  }
+	},
+	{
+	  "action": "DELETE",
+	  "profileName": "Michael"
+	},
+	{
+	  "action": "PATCH",
+	  "profile": {
+		"name": "Adam",
+		"age": 12
+	  }
+	}
+  ]
