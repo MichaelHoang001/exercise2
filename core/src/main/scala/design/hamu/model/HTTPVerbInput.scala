@@ -11,7 +11,7 @@ import io.circe.generic.JsonCodec
   * }
   */
 @JsonCodec
-case class PrimeInput(
-  input: Int,
-  size: Int
+case class HTTPVerbInput(
+  action: String,
+  profile: String
 )
